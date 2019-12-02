@@ -75,6 +75,12 @@ namespace ConsoleApp7
             if (sayi >= 4) return "IV" + RomandanSayiya(sayi - 4);
             if (sayi >= 1) return "I" + RomandanSayiya(sayi - 1);
             throw new ArgumentOutOfRangeException("hata");
+            /* kaynakca: www.stackoverflow.com
+                         www.geeksforgeeks.org
+                         www.youtube.com 
+                         www.freecodecamp.org 
+                         
+               ogrenci no:2017280052 */
         }
     }
 }
